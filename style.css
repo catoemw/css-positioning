@@ -1,0 +1,93 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+body {
+	margin: auto 4em;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #ddd;
+	position: relative;
+}
+
+.navigation li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 1.5em;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.logo {
+	height: 6em;
+	width: 6em;
+	position: absolute;
+	background-color: #000;
+	border-radius: 100%;
+	right: 50%;
+	top: -25%;
+	margin-left: -3em;
+}
+
+.logo p {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	position: relative;
+	top: -28%;
+}
+
+main {
+	margin-top: 3em;
+}
+
+h1 {
+	position: relative;
+	left: -1rem;
+	border-bottom: 1px solid #ddd;
+}
+
+h2 {
+	position: relative;
+	left: -1rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.notification {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	background-color: white;
+	padding: .5em 1em;
+	box-shadow: .25em .25em 1.5em #888888;
+}
+
+h3 {
+	margin-top: 0;
+	padding: .5em 0;
+}
+
+button {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+
+
+
+
+
+
+
+
